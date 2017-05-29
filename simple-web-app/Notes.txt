@@ -1,0 +1,103 @@
+
+
+what .js-lang can do on HTML-pgae in browser envi?
+
+using browser provided APIs , can do any dynamic operations
+
+ browser provided APIs are based on w3c standards
+
+ e.g DOM , XHR , Timer API , 
+
+ implemented & abstracted as .js objects & func
+
+
+using DOM
+------------
+ --> can create/retreive/update/delete HTML elements
+ --> can change element's text/html content
+ --> can change element's style
+ --> can change element's attributes
+ --> can listen events on HTML elements
+ --> can create rich UI components
+ .......
+
+using XHR
+-----------
+ --> can communicate with server async , update resp in existing page ( AJAX )
+
+using Timer API
+-----------------
+ --> can rum timer operation
+
+
+HTML5 APIs
+----------------
+
+    ref : https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5
+
+-------------------------------    
+
+
+
+problems with using plain-js 
+------------------------------
+
+--> browser compatability
+--> performance issues ( e.g DOM manipulation i.e query,update shud be minimal)
+--> memory management is manula ( e.g cleaning un-used DOM elements , un-registernign event-handlers..)
+--> too much code for simple operations
+--> code organization is difficult
+--> data-binding is manual 
+
+etc.......
+
+
+solns
+
+
+    using .JS libraries and Frameworks
+
+
+    1. jQuery
+
+       limitations with jQuery
+
+       -> close to DOM
+       -> code organization is manual
+       -> data-binding is manual
+       etc...
+
+
+
+       MVC/MVVM based .js lib & F.Ws
+
+       --> backbone
+       --> knockout
+       --> Angular 1.x
+       --> Ember.JS
+       ...........
+
+
+       UI components based F.Ws
+
+       --> DOJO
+       --> EXT JS from sencha 
+
+       ---------------------------------------
+
+       w3c drafted new standard to create Web-UI
+
+
+        
+
+
+        1. React JS  ==> UI lib from Facebook . ( focus )
+        2. Angular 
+        3. Polymer JS
+        4. VUE
+
+
+
+
+
+
