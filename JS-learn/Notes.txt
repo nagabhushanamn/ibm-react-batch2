@@ -1,0 +1,123 @@
+
+
+.js-lang
+
+    ref : http://crockford.com/
+
+    --> scripting lang in web-pages in browser-envi
+    +
+    --> server-side lang on Node.js
+    --> Mobile appln
+    --> Desktop appln
+    --> command-line tools
+
+    -----------------------------------------------
+
+    .js-lang , good features
+
+    --> functional pgmming lang
+    --> OOP
+    --> dynamic pgmming lang
+    --> closure support
+
+    --> single-threaded lang , but can implement  concurrency
+    --> All IO operations are Non-Blocking
+
+    -----------------------------------------
+
+
+    why/where shud i use this .js-lang?
+
+    on event, to do any actions async
+
+    ----------------------------------------
+
+
+    How to run .js programs?
+
+    ==> using .js-runtime/engine
+
+
+    browser-envi
+    -------------
+
+      a. chrome  ==> ( v8 -> c++ )
+      b. firefox ==> ( rhino -> java )
+      c. IE/Edge ==> ( chakra )
+      d. safari  ==> nitro
+
+    other envi
+    -------------  
+
+       a. Node.js  ==> v8
+       b. JVM      ==> nashorn
+       c. Apache CouchDB
+       d. Adobe
+
+  ------------------------------------------------
+
+  .js-lang is an implementation of 'ECMAScript' spec
+
+
+  latest : ECMAScript-2015  or ES6
+
+  --------------------------------------------
+
+
+
+  Javascript - concepts
+  --------------------
+
+  1. data-types
+  2. excecution-contexts / scopes
+  3. function-depth
+  4. closures
+  5. Inheritance
+  6. Object-depth
+  7. ES6- New features
+  8. JS modules
+  9. concurrency-Model
+  10. 'this' keyword
+
+  -------------------------------
+
+
+  ES6- New-Features
+  -------------------
+
+
+  New-Syntax
+  -----------
+
+    1. let & const keywords with block-scope
+    2. function default-params
+    3. function rest-param
+    4. arrow-function
+    5. destructuring
+    6. spread operator
+    7. obj-literal enhancements
+    8. String interpolation
+    9. for-of-loop
+    10. Iterators
+    
+  
+New OOP
+------------------
+    => class-syntax
+
+Module- standards
+------------------
+   ==> ES6 modules
+
+Collections
+------------------
+   ==> Set,Map 
+
+New APIs
+------------------
+
+    ==> Promise API
+
+
+
+    
