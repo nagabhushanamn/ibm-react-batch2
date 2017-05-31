@@ -4,11 +4,11 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "classnames": "^2.2.5",
-    "jquery": "^3.2.1",
+    "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "todomvc-app-css": "^2.1.0"
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"
