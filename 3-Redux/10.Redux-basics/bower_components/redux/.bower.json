@@ -1,0 +1,13 @@
+{
+  "name": "redux",
+  "_cacheHeaders": {
+    "ETag": "W/\"785b-156f6718128\"",
+    "Content-Type": "application/javascript"
+  },
+  "_release": "e-tag:W/\"785b-15",
+  "main": "index.js",
+  "_source": "https://npmcdn.com/redux/dist/redux.js",
+  "_target": "*",
+  "_originalSource": "https://npmcdn.com/redux/dist/redux.js",
+  "_direct": true
+}
