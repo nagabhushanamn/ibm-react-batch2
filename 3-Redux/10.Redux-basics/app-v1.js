@@ -38,9 +38,7 @@ function decrement(value) {
 //--------------------------------------------------------------------------------
 // Reducer(s)
 function counterReducer(state = { count: 0 }, action) {
-
-    console.log('counterReducer');
-
+    // console.log('counterReducer');
     switch (action.type) {
         case INCREMENT: {
             return Object.assign({}, state, { count: state.count + action.value });
@@ -86,7 +84,7 @@ function clearCOmpleted() {
 //--------------------------------------------------------------------------------
 
 function todosReducer(state = { todos: [] }, action) {
-    console.log('todosReducer');
+    // console.log('todosReducer');
     switch (action.type) {
         case ADD_TODO:
             let newTodo = { title: action.title, completed: false, id: Math.floor(Math.random() * 100) };
@@ -126,8 +124,9 @@ let defaultState = {
     ]
 };
 
-const store = Redux.createStore(rootReducer, defaultState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+//--------------------------------------------------------------------------------
 
+const store = Redux.createStore(rootReducer, defaultState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 //--------------------------------------------------------------------------------
 
